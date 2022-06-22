@@ -1,0 +1,132 @@
+<html>
+<head>
+	<title>Dalhousie</title>
+	<link rel="stylesheet" type="text/css" href="webpg.css">
+</head>
+<body>
+<header>
+	<div id="main">
+	<div class="logo">
+		<img src="logo.png">
+	</div>
+	<ul>
+		<li class="act"><a href="webpage.html">HOME</a></li>
+		<li><a href="camps.html">CAMPS</a></li>
+		<li><a href="about-us.html">ABOUT</a></li>
+		<li><a href="#con">CONTACT</a></li>
+		<li><a href="reg.html">LOG IN</a></li>
+		</ul>
+	</div>
+	</header>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="dalhousie/do.jpg" style="width:100%;height:80%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="dalhousie/download.jpg" style="width:100%;height:80%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="dalhousie/images.jpg" style="width:100%;height:80%">
+ 
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="dalhousie/img.jpg" style="width:100%;height:80%">
+
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="dalhousie/img1.jpg" style="width:100%;height:80%">
+ 
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span><br><br>
+</div>
+
+
+<center>
+        <div>
+            <pre><font color="white"><h3><u>Welcome to Dalhousie!!</u></h3>
+              
+             <b>Activities</b>: Trekking,Rappelling,Zip line,Tree jumaring,Treasure hunt,Group games,Campfire,town visit,
+              Bird watching and identification of plans.
+
+              <b>Eligiblity</b>: 12 to 22 years
+
+              <b>Camp Accomodations</b>: Six participants will share one alpine tents,seperate for girls and boys 
+              Western toilets and bathrooms would be of make-shift kind.
+
+              <b>Please carry</b>: Six pair of comfortable clothes ,heavy wollens,raincoat,bath towel,sports shoes,socks,
+              leather gloves,sunglasses,water bag,torch,day pack,pen,pocket diary.
+
+              <b>Food</b>: Wholesome and hygienic food would be served.
+              <u>Jain food</u> will be availabe on prior request
+            </font></pre>
+			<a id="fb" href="reg.html">
+        <button style="width:80px;height:30px"><h3>Book<h3></button>
+		</a>
+		
+        </div>
+    </center>
+    <br>
+    <br>
+<div id="con">
+	<center>
+	<a id="fb" href="https://www.facebook.com">
+	<img src="fb.png" style="width:60px;height:60px;margin-top:50px"></img>
+	</a>
+	<a  id="insta" href="https://www.instagram.com">
+	<img src="insta.png" style="width:60px;height:60px;margin-top:50px"</img>
+	</a>
+	<a id="yt" href="https://www.youtube.com">
+	<img src="yt.png" style="width:60px;height:60px;margin-top:50px"></img>
+	</a>
+	<a  id="gm" href="https://www.gmail.com">
+	<img src="gmail.png" style="width:60px;height:60px;margin-top:50px"></img>
+	</a>
+	</center><br><br>
+	<p style="color:white;margin-left:200px;font-size:25"><b><u>Address:</u></b> 5,SSS Complex, Nr Gujarat Univerity, Ahmedabad-15.<br>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>M.</u> </b>9876541230. &nbsp; <b><u>O.</u> </b>079-29656565<br>
+	&nbsp;</p>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); 
+}
+</script>
+
+		
+</body>
+</html>

@@ -1,0 +1,200 @@
+*{	
+	font-family: Century Gothic;
+}
+h3,h4
+{
+	color:white;
+}
+.logo,img
+{
+	margin-top:-15px;
+	float:left;
+	width:250px;
+	height:170px;
+	margin-left:60px;
+}
+#con
+{	
+	margin-left:100px;
+	margin-top:10px;
+	border-top:1px solid white;
+	width:1150px;
+	height:50px;
+}
+#fb
+{
+	margin-top:80px;
+	border:0px transparent;
+	background:none;
+}
+#yt
+{
+	margin-top:20px;
+	background:black;
+	border:0px transparent;
+}
+#gm
+{
+	background:none;
+	margin-top:20px;
+	border:0px transparent;
+}
+#insta
+{
+	margin-top:20px;
+	border:0px transparent;
+	background:none;
+
+}
+
+Header
+{
+	height:50px;
+	background-position:center;
+	background-size:cover;
+	margin-bottom:2px;
+}
+body
+{
+	background:black;
+}
+ul
+{
+	float:right;
+	list-style-type:none;
+	margin-top:45px;
+	margin-right:60px;
+	margin-top:50px;
+}
+li 
+{
+	display:inline-block;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+	padding:5px 20px;
+	border:1px solid white;
+	transition:0.6s ease;
+}
+
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	background-color:white;
+	color:black;
+
+}
+body
+{ 
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#m1
+{
+	height:700px;
+}
+.div1
+{
+height:300px;
+width:350px;
+border:2px solid black;
+position:relative;
+background-image:url("Manali/download.jpg");
+background-image:fixed;
+background-repeat:no-repeat;
+background-size:100% 70%;
+background-position:bottom;
+margin-left:70px;
+}
+.div2
+{
+  height:300px;
+width:350px;
+border:2px solid black;
+position:relative;
+background-image:url("Kasol/Parvati-River-in-Kasol.jpg");
+background-image:fixed;
+background-repeat:no-repeat;
+background-size:100% 70%;
+background-position:bottom;
+top:-305px;
+left:400px;
+margin-left:70px;
+
+}
+.div3
+{
+  height:300px;
+width:350px;
+border:2px solid black;
+position:relative;
+background-image:url("Dalhousie/do.jpg");
+background-image:fixed;
+background-repeat:no-repeat;
+background-size:100% 70%;
+background-position:bottom;
+top:-610px;
+left:800px;
+margin-left:70px;
+
+}
+.div4
+{
+
+height:300px;
+width:350px;
+border:2px solid black;
+position:relative;
+background-image:url("Leh Ladakh/do1.jpg");
+background-image:fixed;
+background-repeat:no-repeat;
+background-size:100% 70%;
+background-position:bottom;
+top:-580px;
+right:-1px;
+margin-left:70px;
+}
+.div5
+{
+
+height:300px;
+width:350px;
+border:2px solid black;
+position:relative;
+background-image:url("Jaisalmer/do2.jpg");
+background-image:fixed;
+background-repeat:no-repeat;
+background-size:100% 70%;
+background-position:bottom;
+top:-885px;
+right:-397px;
+margin-left:70px;
+}
+.div6
+{
+
+height:300px;
+width:350px;
+border:2px solid black;
+position:relative;
+background-image:url("Sikkim/d1.jpg");
+background-image:fixed;
+background-repeat:no-repeat;
+background-size:100% 70%;
+background-position:bottom;
+top:-1190px;
+left:800px;
+margin-left:70px;
+}
+.color
+{
+	margin-top:100px;
+  color:red;
+  height:80px;
+  margin-left:550px;
+}

@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="webpg.css">
+</head>
+<body>
+<header>
+	<div id="main">
+	<div class="logo">
+		<img src="logo.png">
+	</div>
+	<ul>
+		<li class="act"><a href="Webpage.html">HOME</a></li>
+		<li><a href="camps.html">CAMPS</a></li>
+		<li><a href="about-us.html">ABOUT</a></li>
+		<li><a href="#con">CONTACT</a></li>
+		<li><a href="reg.html">LOG IN</a></li>
+		</ul>
+	</div>
+</header>
+        <div style="border-top:1px solid white;margin-left:100px;margin-top:100px;width:1150px;">
+            <pre><font color="white" align="justify"><br>	Hey there,
+				AMK is a professional organization that innovate outdoor based programs. It was started by a group of young people back in<br>     <u>1999</u>.We include many places such as Manali, Jaisalmer, Leh Ladakh, Kasol Sar pass, etc. Our purpose is not only having a luxury tour but also<br>    children learn from that trip and <b><u>"EXPERIENCE THE THRILL"</u><b>. 
+            </font></pre>
+		</div>
+<div id="con">
+	<center>
+	<a id="fb" href="https://www.facebook.com">
+	<img src="fb.png" style="width:60px;height:60px;margin-top:50px"></img>
+	</a>
+	<a  id="insta" href="https://www.instagram.com">
+	<img src="insta.png" style="width:60px;height:60px;margin-top:50px"</img>
+	</a>
+	<a id="yt" href="https://www.youtube.com">
+	<img src="yt.png" style="width:60px;height:60px;margin-top:50px"></img>
+	</a>
+	<a  id="gm" href="https://www.gmail.com">
+	<img src="gmail.png" style="width:60px;height:60px;margin-top:50px"></img>
+	</a>
+	</center><br><br>
+	<p style="color:white;margin-left:200px;font-size:25"><b><u>Address:</u></b> 5,SSS Complex, Nr Gujarat Univerity, Ahmedabad-15.<br>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>M.</u> </b>9876541230. &nbsp; <b><u>O.</u> </b>079-29656565<br>
+	&nbsp;</p>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); 
+}
+</script>
+
+		
+</body>
+</html>

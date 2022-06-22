@@ -1,0 +1,128 @@
+body{
+			background:black;
+		}
+fieldset
+	{
+		width:400px;
+		margin-top:20px;
+		height:450px;
+	}
+form
+
+{
+	color:white;
+	text-align:center;
+}
+#rs{
+	background:black;
+	color:white;
+	width:100px;	
+}
+#reg
+{
+	margin-top:100px;
+	margin-left:100px;
+	border-top:1px solid white;
+	width:1150px;
+	height:500px;
+
+}
+input
+{
+	width:200px;
+	height:30px;
+}
+span
+{
+	color:red;
+	font-style: italic;
+	margin-left:110px;
+	margin-top:50px;
+}
+#male
+{
+	width:15px;
+	height:15px;
+}
+#female
+{
+	width:15px;
+	height:15px;
+}
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+.logo img
+{
+	margin-top:-20px;
+	float:left;
+	width:250px;
+	height:150px;
+	margin-left:60px;
+}
+#con
+{
+	margin-left:100px;
+	margin-top:20px;
+	border-top:1px solid white;
+	width:1150px;
+	height:70px;
+}
+#fb
+{
+	margin-top:80px;
+	border:0px transparent;
+	background:none;
+}
+#yt
+{
+	margin-top:20px;
+	background:black;
+	border:0px transparent;
+}
+#gm
+{
+	background:none;
+	margin-top:20px;
+	border:0px transparent;
+}
+#insta
+{
+	margin-top:20px;
+	border:0px transparent;
+	background:none;
+
+}
+Header
+{
+	height:50px;
+	background-position:center;
+	background-size:cover;
+	margin-bottom:2px;
+}
+ul
+{
+	float:right;
+	list-style-type:none;
+	margin-top:45px;
+	margin-right:60px;
+}
+li 
+{
+	display:inline-block;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+	padding:5px 20px;
+	border:1px solid white;
+	transition:0.6s ease;
+}
+a:hover
+{
+	background-color:white;
+	color:black;
+}
